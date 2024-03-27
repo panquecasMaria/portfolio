@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        *{margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        
         header {
             display: flex;
-            width: 95vw;
+
             justify-content: space-between;
             padding: 20px 60px;
+            background: linear-gradient(to right,rgb(1, 38, 119), rgb(129, 145, 197), rgb(1, 38, 119) )
+      
+        }
+        header ul{
+            display: flex;
+            gap:30px;
+            list-style:none ;
+        }
+        header a{
+            text-decoration: none;
+            color:rgb(255, 255, 255)
+        }
+        .logo{
+            color: rgb(255, 255, 255);
+        }
+        header h1{
+            text-align: right;
+        }
+        .logo{
+            width: 60vw ;
+        }
+      .section{
+    
+        border-bottom: 2px solid #999999;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px;
+      }
+    
+        .direita img{
+            width: 30%;
+            box-shadow: 20px 20px 20px rgb(0, 0, 0, 0.5);
+           border-radius: 30px;
+        }
+        .direita, esquerda{
+            width: 60vw;
         }
     </style>
 </head>
@@ -18,21 +59,37 @@
     <main> 
     <header>
     <div class = "logo"> 
-    <h1><p>Meu Portfólio Técnico</h1></P>
-        <P><i>Maria Cecilia Muniz Martins</i></P>
+        <h1>Meu Portfólio Técnico</h1>
+        
 </div>
 <nav>
    
         <ul>
-    <div class="links">
+
        <li> <a href= "#home">Home</a></li>
        <li> <a href="#sobre mim">Sobre mim</a></li>
        <li><a href="#projetos">Projetos</a></li>
-        </div>
    
-    </ul>
-</header>
+        </ul>
 </nav>
+</header>  
+<div class ="name">
+    <P><i>Maria Cecilia Muniz Martins</i></P>
+</div>
+<div class="section" id="#home">
+            <div class="esquerda">
+                <h1><i> Bem vindo ao meu portfólio</i></h1>
+                <p>Aqui colocarei minhas atividades de desenvolvimento de sistemas</p>
+            </div>
+
+            <div class="direita">
+                <img src="https://services.meteored.com/img/article/ataca-tiburon-a-joven-madre-en-playas-de-jalisco-1701706836296_768.jpg" alt="tubarãooo">
+                
+                </div>
+    
+    
+            
+       
  </main>
 </body>
 </html>

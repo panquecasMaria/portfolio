@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, rgb(149, 87, 165), rgb(212, 188, 221), rgb(149, 87, 165))
+    background: linear-gradient(to right, rgb(20, 47, 165), rgb(129, 145, 197), rgb(2, 24, 63))
 }
 .title {
      text-align: center;
@@ -9,4 +9,10 @@ body{
 }
 .links {
     text-align: center;
+}
+.esquerda{
+    color: white;
+}
+.name{
+    color: white;
 }
