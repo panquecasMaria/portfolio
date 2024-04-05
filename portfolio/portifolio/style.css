@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to right, rgb(149, 87, 165), rgb(212, 188, 221), rgb(149, 87, 165))
+}
+.title {
+     text-align: center;
+}
+.logo {
+    text-align: center;
+}
+.links {
+    text-align: center;
+}
